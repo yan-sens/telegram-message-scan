@@ -1,0 +1,7 @@
+netstat -ano | findstr :3000
+taskkill /PID "123" /F 
+npm run start:debug
+
+web:
+channel: https://web.telegram.org/k/#-{chanel_id}
+user: https://web.telegram.org/k/#{user_id}
